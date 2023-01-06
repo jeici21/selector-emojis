@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import EmojiPickerInput from './components/emoji-picker/EmojiPickerInput';
 
 function App() {
