@@ -33,19 +33,7 @@ export function EmojiPicker(props, inputRef) {
             setEmojis(emojiList);
         }
     }
-    /*     const EmojiPickerContainer = () => {
-    
-            return (
-                <div>
-                    <EmojiSearch onSearch={handleSearch} />
-                    <div>
-                        {emojis.map((emoji) => (
-                            <div key={emoji.symbol}>{emoji.symbol}</div>
-                        ))}
-                    </div>
-                </div>
-            );
-        } */
+
     const handleOnClickEmoji = (emoji) => {
         const cursorPos = inputRef.current.selectionStart;
         const text = inputRef.current.value;
@@ -59,7 +47,7 @@ export function EmojiPicker(props, inputRef) {
 
     return (
         <div ref={containerRef} className={styles.inputContainer}>
-            <button onClick={handleClickOpen} className={styles.emojiPickerButton}>😒</button>
+            <button onClick={handleClickOpen} className={styles.emojiPickerButton}>😊</button>
             {isOpen ? (
                 <div className={styles.emojiPickerContainer}>
                     <EmojiSearch onSearch={handleSearch} />
