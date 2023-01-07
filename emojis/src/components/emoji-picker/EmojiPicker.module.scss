@@ -1,10 +1,10 @@
 .inputContainer {
-    display: inline-flex;
-    position: relative;
+    /* display: inline-flex;
+    position: relative; */
 }
 
 .emojiPickerContainer {
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 350px;
     border: solid 1px white;
@@ -14,14 +14,16 @@
     padding: 15px;
     box-sizing: border-box;
     top: 20px;
+    margin: auto;
     border-radius: 5px;
 }
 
 .emojiPickerButton {
-    display: inline-block;
+    display: inline;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .emojisList {

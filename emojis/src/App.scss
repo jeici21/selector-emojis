@@ -1,14 +1,19 @@
-/* h1{
+h1 {
     text-align: center;
-} */
+}
+
 .container {
-    margin-left: 40%;
-    margin-right: 40%;
     width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .emoji-input {
     height: 24px;
     width: 235px;
     font-family: 'Samsung Sans Regular';
+    display: block;
+    margin: auto;
 }
